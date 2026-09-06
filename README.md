@@ -5,8 +5,13 @@ Public download repository for official Remocode Bar builds.
 
 ## 下载 / Download
 
-请从 [Releases](https://github.com/BlueOriginAI/RemocodeBar/releases/latest) 下载最新版。  
-Download the latest build from [Releases](https://github.com/BlueOriginAI/RemocodeBar/releases/latest).
+请从 [Latest Release](https://github.com/BlueOriginAI/RemocodeBar/releases/latest) 下载 macOS DMG。  
+Download the macOS DMG from the [Latest Release](https://github.com/BlueOriginAI/RemocodeBar/releases/latest).
+
+## 自动更新 / Automatic updates
+
+从 v2.9.2 开始，正式版使用此公开仓库的签名 latest.json 自动检查后续更新。v2.9.1 及更早版本需要先手动安装一次 v2.9.2 DMG。  
+Starting with v2.9.2, formal builds use the signed latest.json in this repository for future automatic updates. v2.9.1 and earlier must install the v2.9.2 DMG manually once.
 
 ## 支付环境 / Billing environment
 
@@ -19,8 +24,8 @@ Builds published here use Stripe Live mode. Completing checkout creates a real p
 
 ## 签名说明 / Signing notice
 
-当前安装包为内部 ad-hoc 签名，尚未完成 Apple 公证，首次打开时 macOS 可能显示 Gatekeeper 提示。  
-The current package is ad-hoc signed and not Apple-notarized, so macOS may show a Gatekeeper warning on first launch.
+Updater 更新包使用独立签名防篡改。当前应用和 DMG 仍为内部/ad-hoc 签名，尚未完成 Apple 公证，首次打开可能出现 Gatekeeper 提示。  
+Updater archives are signed for integrity. The app and DMG remain ad-hoc signed and not Apple-notarized, so Gatekeeper may warn on first launch.
 
-源代码在私有仓库中维护，本仓库仅用于发布正式安装包与校验文件。  
-Source is maintained privately; this repository only distributes official binaries and checksums.
+源代码在私有仓库中维护，本仓库仅用于发布正式安装包与更新元数据。  
+Source is maintained privately; this repository distributes official binaries and updater metadata only.
