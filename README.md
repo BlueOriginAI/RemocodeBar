@@ -5,15 +5,16 @@ Public download repository for official Remocode Bar builds.
 
 ## 下载 / Download
 
-[下载 macOS Universal DMG / Download for macOS](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-macos-universal.dmg)
+[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.6-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.6-macos-arm64.dmg)
+[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.6-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.6-macos-x86_64.dmg)
 
-一个安装包同时包含 Apple Silicon 和 Intel 版本，无需选择架构。  
-One installer includes Apple Silicon and Intel binaries; no architecture selection needed.
+请选择与 Mac 架构匹配的安装包；v2.10.5 及更早版本仍提供 Universal DMG。
+Choose the installer matching your Mac; v2.10.5 and earlier remain available as Universal DMGs.
 
 ## 自动更新 / Automatic updates
 
-正式版发现新版本后，可在更新弹窗中点击安装，应用会自动下载、校验签名、安装并重启。v2.9.1 及更早版本请先手动安装最新版 Universal DMG。  
-When a new version is available, click Install in the update dialog to download, verify, install, and restart automatically. Users on v2.9.1 or earlier should first install the latest Universal DMG manually.
+正式版发现新版本后，可在更新弹窗中点击安装，应用会自动下载、校验签名、安装并重启。v2.9.1 及更早版本请先手动安装与设备架构匹配的安装包。
+When a new version is available, click Install in the update dialog to download, verify, install, and restart automatically. Users on v2.9.1 or earlier should first install the latest architecture-specific DMG for their Mac.
 
 ## 支付环境 / Billing environment
 
@@ -22,7 +23,7 @@ Builds published here use Stripe Live mode. Completing checkout creates a real p
 
 ## 当前平台 / Current platform
 
-- macOS Universal（Apple Silicon arm64 + Intel x86_64）
+- macOS Apple Silicon（arm64）与 Intel（x86_64）独立安装包
 
 ## 签名说明 / Signing notice
 
