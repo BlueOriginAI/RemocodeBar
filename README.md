@@ -5,8 +5,8 @@ Public download repository for official Remocode Bar builds.
 
 ## 下载 / Download
 
-[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.9-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.9-macos-arm64.dmg)
-[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.9-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.9-macos-x86_64.dmg)
+[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.10-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.10-macos-arm64.dmg)
+[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.10-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.10-macos-x86_64.dmg)
 
 请选择与 Mac 架构匹配的安装包；v2.10.5 及更早版本仍提供 Universal DMG。
 Choose the installer matching your Mac; v2.10.5 and earlier remain available as Universal DMGs.
@@ -27,8 +27,9 @@ Builds published here use Stripe Live mode. Completing checkout creates a real p
 
 ## 签名说明 / Signing notice
 
-Updater 更新包使用独立签名防篡改。当前应用和 DMG 仍为内部/ad-hoc 签名，尚未完成 Apple 公证，首次打开可能出现 Gatekeeper 提示。  
-Updater archives are signed for integrity. The app and DMG remain ad-hoc signed and not Apple-notarized, so Gatekeeper may warn on first launch.
+当前新版本使用 Developer ID Application 签名，DMG 经过 Apple 公证并附带公证票据；Updater 更新包另有独立签名，用于校验更新完整性。旧版内部/ad-hoc 安装包保持历史状态。
+
+Current releases use Developer ID Application signing and Apple-notarized DMGs with stapled tickets. Updater archives carry a separate integrity signature. Historical ad-hoc releases remain unchanged.
 
 源代码在私有仓库中维护，本仓库仅用于发布正式安装包与更新元数据。  
 Source is maintained privately; this repository distributes official binaries and updater metadata only.
