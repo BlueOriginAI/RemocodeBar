@@ -5,8 +5,8 @@ Public download repository for official Remocode Bar builds.
 
 ## 下载 / Download
 
-[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.11-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.11-macos-arm64.dmg)
-[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.11-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.11-macos-x86_64.dmg)
+[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.12-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.12-macos-arm64.dmg)
+[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.12-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.12-macos-x86_64.dmg)
 
 请选择与 Mac 架构匹配的安装包；v2.10.5 及更早版本仍提供 Universal DMG。
 Choose the installer matching your Mac; v2.10.5 and earlier remain available as Universal DMGs.
@@ -33,3 +33,13 @@ Current releases use Developer ID Application signing and Apple-notarized DMGs w
 
 源代码在私有仓库中维护，本仓库仅用于发布正式安装包与更新元数据。  
 Source is maintained privately; this repository distributes official binaries and updater metadata only.
+
+## ChatGPT-web
+
+macOS 13+ 可通过 Chrome 配套扩展向 ChatGPT 网页咨询问题，再将回答返回 Codex / Claude Code。API 反代与 ChatGPT-web 共用一份 Bar 有效订阅；用户需自行提供 ChatGPT 账号及网页额度。
+
+当前 Chrome 网上应用店版本尚未发布。请在 Bar 的 ChatGPT-web 页点击“准备 / 启动服务”，展开“首次安装扩展”，按其中显示的目录手动加载扩展。随后检查登录与模型、完成测试并启用 MCP。
+
+On macOS 13+, the companion Chrome extension lets Codex / Claude Code consult your ChatGPT web session. API proxy and ChatGPT-web share one active Bar subscription; your ChatGPT account and web allowance are separate. Chrome Web Store distribution is pending. Use the first-install instructions and extension folder in Bar's ChatGPT-web page, then verify the model and enable MCP.
+
+[隐私政策 / Privacy](https://remocode.cc/products/remocode-bar/privacy) · [支持 / Support](https://remocode.cc/products/remocode-bar/support)
