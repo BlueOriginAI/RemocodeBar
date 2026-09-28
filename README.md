@@ -5,11 +5,11 @@ Public download repository for official Remocode Bar builds.
 
 ## 下载 / Download
 
-[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.14-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.14-macos-arm64.dmg)
-[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.14-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.14-macos-x86_64.dmg)
+[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.15-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.15-macos-arm64.dmg)
+[下载 macOS Intel（x86_64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.15-macos-x86_64.dmg) / [Download Intel (x86_64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.15-macos-x86_64.dmg)
 
-请选择与 Mac 架构匹配的安装包；v2.10.5 及更早版本仍提供 Universal DMG。
-Choose the installer matching your Mac; v2.10.5 and earlier remain available as Universal DMGs.
+从 v2.10.15 起，新版只提供 Apple Silicon arm64 安装包。Intel 与 Universal 历史版本仍可在旧 Release 中下载。
+Starting with v2.10.15, new releases provide Apple Silicon arm64 installers only. Historical Intel and Universal packages remain available in previous releases.
 
 ## 自动更新 / Automatic updates
 
