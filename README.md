@@ -5,7 +5,7 @@ Public download repository for official Remocode Bar builds.
 
 ## 下载 / Download
 
-[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.16-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.16-macos-arm64.dmg)
+[下载 macOS Apple Silicon（arm64）](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.17-macos-arm64.dmg) / [Download Apple Silicon (arm64)](https://github.com/BlueOriginAI/RemocodeBar/releases/latest/download/Remocode-Bar-v2.10.17-macos-arm64.dmg)
 
 从 v2.10.15 起，新版只提供 Apple Silicon arm64 安装包。Intel 与 Universal 历史版本仍可在旧 Release 中下载。
 Starting with v2.10.15, new releases provide Apple Silicon arm64 installers only. Historical Intel and Universal packages remain available in previous releases.
@@ -22,7 +22,7 @@ Builds published here use Stripe Live mode. Completing checkout creates a real p
 
 ## 当前平台 / Current platform
 
-- macOS Apple Silicon（arm64）与 Intel（x86_64）独立安装包
+- 新版 macOS Apple Silicon（arm64）；Intel 与 Universal 请使用历史版本。
 
 ## 签名说明 / Signing notice
 
@@ -33,12 +33,13 @@ Current releases use Developer ID Application signing and Apple-notarized DMGs w
 源代码在私有仓库中维护，本仓库仅用于发布正式安装包与更新元数据。  
 Source is maintained privately; this repository distributes official binaries and updater metadata only.
 
-## ChatGPT-web
+## GPTweb 下线 / GPTweb retirement
 
-macOS 13+ 可通过 Chrome 配套扩展向 ChatGPT 网页咨询问题，再将回答返回 Codex / Claude Code。API 反代与 ChatGPT-web 共用一份 Bar 有效订阅；用户需自行提供 ChatGPT 账号及网页额度。
+从 v2.10.17 起，Bar 移除 GPTweb、浏览器扩展、内置网页模型运行时和相关 MCP 后端，恢复原生界面。账号与额度管理、订阅、正常 API 代理和 Anthropic 兼容接口保留。旧版网页模型客户端请选择 API 模型。
 
-当前 Chrome 网上应用店版本尚未发布。请在 Bar 的 ChatGPT-web 页点击“准备 / 启动服务”，展开“首次安装扩展”，按其中显示的目录手动加载扩展。随后检查登录与模型、完成测试并启用 MCP。
+Starting with v2.10.17, Bar removes GPTweb, its browser extension/runtime and Web MCP backend, and restores the native interface. Account/quota management, subscriptions, the normal API proxy and Anthropic compatibility remain. Clients using retired Web models should select an API model.
 
-On macOS 13+, the companion Chrome extension lets Codex / Claude Code consult your ChatGPT web session. API proxy and ChatGPT-web share one active Bar subscription; your ChatGPT account and web allowance are separate. Chrome Web Store distribution is pending. Use the first-install instructions and extension folder in Bar's ChatGPT-web page, then verify the model and enable MCP.
+已有浏览器资料、登录会话、密钥、Tunnel 和云端连接不会自动删除或撤销；这些资源仍由用户管理。
+Existing browser data, login sessions, credentials, Tunnels and cloud connections remain under user control.
 
-[隐私政策 / Privacy](https://remocode.cc/products/remocode-bar/privacy) · [支持 / Support](https://remocode.cc/products/remocode-bar/support)
+[历史隐私说明 / Historical privacy notice](https://remocode.cc/products/remocode-bar/privacy) · [支持 / Support](https://remocode.cc/products/remocode-bar/support)
